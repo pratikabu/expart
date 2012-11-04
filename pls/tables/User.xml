@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<!--
+    Document     : User.xml
+    Created on   : Sat Jun 05 00:52:14 IST 2010
+    Created by   : Created by PLS Framework GUI, Eighty_Coffee
+    Version      : 1.0.0
+-->
+
+<table-info>
+    <!-- General info about the table -->
+    <table-name>User</table-name>
+    <table-schema></table-schema>
+    <primary-auto-managed>true</primary-auto-managed>
+
+    <!-- Attributes description starts -->
+
+    <attribute>
+        <name>udi</name>
+        <logical-name>udi</logical-name>
+        <default-value></default-value>
+        <data-type>Integer</data-type>
+        <key-constraint>Primary Key</key-constraint>
+    </attribute>
+
+    <attribute>
+        <name>uName</name>
+        <logical-name>uName</logical-name>
+        <default-value></default-value>
+        <data-type>String</data-type>
+        <key-constraint>General</key-constraint>
+    </attribute>
+</table-info>

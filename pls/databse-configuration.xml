@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<!--
+    Document     : databse-configuration.xml
+    Created on   : Mon May 31 23:29:13 IST 2010
+    Created by   : Created by PLS Framework GUI, Eighty_Coffee
+    Version      : 1.0.0
+    Description  : This file contains the description of the databse information
+                   needed for this architecture to use it to connect with.
+-->
+
+<database-info>
+    <!-- whether it is container managed for connection pooling or not -->
+    <container-managed>false</container-managed>
+
+    <!-- if container managed then the context path should be present here -->
+    <context-path></context-path>
+
+    <!--the total number of connections to be pooled-->
+    <pool-size>20</pool-size>
+
+    <!--the username and password for the database to enter in-->
+    <username>admin</username>
+    <password>tseting</password>
+
+    <!-- the connectivity url of the driver -->
+    <connectivity-url>jdbc:odbc:Driver={MicroSoft Access Driver (*.mdb)};DBQ=pls\\expartdb.mdb</connectivity-url>
+
+    <!-- fully qualified driver class name -->
+    <driver-class>sun.jdbc.odbc.JdbcOdbcDriver</driver-class>
+
+    <!-- jar file names related to this driver -->
+</database-info>

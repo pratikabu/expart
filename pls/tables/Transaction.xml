@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<!--
+    Document     : Transaction.xml
+    Created on   : Sun Oct 03 16:41:04 IST 2010
+    Created by   : Created by PLS Framework GUI, Eighty_Coffee
+    Version      : 1.0.0
+-->
+
+<table-info>
+    <!-- General info about the table -->
+    <table-name>Transaction</table-name>
+    <table-schema></table-schema>
+    <primary-auto-managed>false</primary-auto-managed>
+
+    <!-- Attributes description starts -->
+
+    <attribute>
+        <name>tid</name>
+        <logical-name>tid</logical-name>
+        <default-value></default-value>
+        <data-type>Integer</data-type>
+        <key-constraint>Primary Key</key-constraint>
+    </attribute>
+
+    <attribute>
+        <name>tDate</name>
+        <logical-name>tDate</logical-name>
+        <default-value></default-value>
+        <data-type>java.util.Date</data-type>
+        <key-constraint>General</key-constraint>
+    </attribute>
+
+    <attribute>
+        <name>tDesc</name>
+        <logical-name>tDesc</logical-name>
+        <default-value></default-value>
+        <data-type>String</data-type>
+        <key-constraint>General</key-constraint>
+    </attribute>
+
+    <attribute>
+        <name>tProfile</name>
+        <logical-name>tProfile</logical-name>
+        <default-value></default-value>
+        <data-type>Integer</data-type>
+        <key-constraint>Foreign Key</key-constraint>
+    </attribute>
+</table-info>
