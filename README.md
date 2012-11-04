@@ -8,3 +8,4 @@ This project is a Netbeans project.
 ## How To Run
 - Download the latest .zip file
 - Extract the .zip file at your preferred location
+- You can either double click on ExPart.jar or run.bat
