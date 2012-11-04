@@ -6,6 +6,5 @@ Its a java based money sharing tool for Microsoft Windows. It will only work on 
 This project is a Netbeans project.
 
 ## How To Run
-----
 - Download the latest .zip file
 - Extract the .zip file at your preferred location
